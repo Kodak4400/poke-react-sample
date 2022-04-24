@@ -1,5 +1,5 @@
 export const MainMenuTitle = () => {
   return (
-    <h1>MENU</h1>
+    <h2 className="main-menu-title">MENU</h2>
   )
 }

@@ -1,5 +1,5 @@
 export const MainMenuPokemonList = () => {
   return (
-    <button>POKEMONLIST</button>
+    <button className="main-menu-pokemon-list">POKEMONLIST</button>
   )
 }
