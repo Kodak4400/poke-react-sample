@@ -1,0 +1,41 @@
+.main-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-title {
+  margin: 50px 0px 50px
+}
+
+.main-menu-list {
+  width: 300px;
+  height: 500px;
+  margin: 0px 0px 50px;
+
+  background: rgba(211, 193, 126, 0.9);
+  border-radius: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.main-menu-title {
+  font-weight: 400;
+  font-size: 40px;
+  color: #201E25;
+}
+
+.main-menu-pokemon-list {
+  width: 272px;
+  height: 50px;
+  background: #BA4763;
+  border-radius: 10px;
+
+  font-weight: 400;
+  font-size: 30px;
+  color: #FCFFFF;
+}
