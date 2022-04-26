@@ -1,5 +1,5 @@
 export const PokemonName = () => {
   return (
-    <div>CLEFAIRY</div>
+    <div className="pokemon-name">CLEFAIRY</div>
   )
 }
