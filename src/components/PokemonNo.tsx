@@ -1,5 +1,5 @@
 export const PokemonNo = () => {
   return (
-    <div>No.25</div>
+    <div className="pokemon-no">No.25</div>
   )
 }
