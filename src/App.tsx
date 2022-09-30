@@ -1,16 +1,7 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import { MainPage } from '@/pages/MainPage'
-import { PokemonListPage } from '@/pages/PokemonListPage'
+import IndexRoutes from './routes';
 
 export const App = () => {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route index element={<MainPage />} />
-        <Route path="pokemons" element={<PokemonListPage />} />
-      </Routes>
-    </BrowserRouter>
-  )
-}
+  return <IndexRoutes />;
+};
 
-export default App
+export default App;
